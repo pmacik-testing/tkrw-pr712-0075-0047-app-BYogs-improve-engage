@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-udbn
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0047-tenant/tkrw-pr712-0075-0047-app/devfile-sample-udbn@sha256:13cff7f3c6a8de58ee08beaf61654d717197bd0d39898a28738f5bf193cad037
         name: my-nodejs
         ports:
         - containerPort: 3001
